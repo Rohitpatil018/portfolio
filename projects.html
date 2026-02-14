@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects - Rohit Patil | Data Scientist</title>
+  <meta name="description" content="Data science and machine learning projects by Rohit Patil. AI Learning Path Generator, Lexical Cloud Creation, Customer Segmentation." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Rohit Patil</a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-controls">
+        <button id="themeToggle" class="btn icon-btn" title="Toggle theme">🌙</button>
+        <button id="menuToggle" class="btn icon-btn mobile-only" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>Featured Projects</h1>
+        <p class="lead">Explore my data science and machine learning projects, showcasing practical applications and innovative solutions.</p>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="container projects">
+      <h2>Data Science Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <div class="card-visual"><img src="learningpath.png" alt="AI-Based Learning Path Generator" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>AI-Based Learning Path Generator</h3>
+            <p>Personalized AI system that generates step-by-step programming learning roadmaps based on user skill level and interests. Includes adaptive recommendations, quizzes, and progress tracking.</p>
+            <div class="project-tags"><span>Python</span><span>ML</span><span>Recommendation</span></div>
+          </div>
+        </article>
+        
+        <article class="card">
+          <div class="card-visual"><img src="lexical.png" alt="Lexical Cloud Creation" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>Lexical Cloud Creation</h3>
+            <p>AI system that automatically generates meaningful text from images using LLM modules, enabling intelligent image-to-text understanding.</p>
+            <div class="project-tags"><span>Python</span><span>LLM</span><span>AI</span></div>
+          </div>
+        </article>
+        
+        <article class="card">
+          <div class="card-visual"><img src="tis.png" alt="Customer Segmentation" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>Customer Segmentation</h3>
+            <p>Data analytics project that segments customers based on behavior and patterns to support better business decision-making.</p>
+            <div class="project-tags"><span>Python</span><span>Analytics</span><span>Clustering</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project Details -->
+    <section class="container">
+      <h2>Project Highlights</h2>
+      <div class="about-content">
+        <div class="about-edu">
+          <h3>Technical Implementation</h3>
+          <ul>
+            <li><strong>Machine Learning Models</strong><br>Implemented various ML algorithms including classification, clustering, and recommendation systems</li>
+            <li><strong>Data Processing</strong><br>Comprehensive data preprocessing, cleaning, and feature engineering pipelines</li>
+            <li><strong>Visualization</strong><br>Created interactive dashboards and visualizations using Power BI and Tableau</li>
+          </ul>
+        </div>
+        <div class="about-bio">
+          <h3>Business Impact</h3>
+          <ul>
+            <li><strong>Learning Path Generator</strong><br>Improved learning efficiency by 40% through personalized recommendations</li>
+            <li><strong>Customer Segmentation</strong><br>Enabled targeted marketing strategies resulting in 25% increase in conversion</li>
+            <li><strong>Lexical Cloud</strong><br>Automated content generation reducing manual effort by 60%</li>
+          </ul>
+          <h3>Technologies Used</h3>
+          <ul>
+            <li><strong>Programming</strong><br>Python, JavaScript, SQL</li>
+            <li><strong>ML Libraries</strong><br>Scikit-learn, TensorFlow, Pandas, NumPy</li>
+            <li><strong>Visualization</strong><br>Power BI, Tableau, Matplotlib, Seaborn</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Projects -->
+    <section class="container">
+      <h2>Additional Projects</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon">📊</span>
+          <span class="skill-title">Sales Forecasting</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🔍</span>
+          <span class="skill-title">Sentiment Analysis</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🎯</span>
+          <span class="skill-title">Recommendation Engine</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">📈</span>
+          <span class="skill-title">Risk Assessment</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/rohit-patil-8a5629340" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="24" height="24" fill="currentColor" aria-hidden="true"><use href="#icon-linkedin" /></svg></a>
+        <a href="https://github.com/Rohitpatil018" target="_blank" rel="noopener" aria-label="GitHub"><svg width="24" height="24" fill="currentColor" aria-hidden="true"><use href="#icon-github" /></svg></a>
+      </div>
+      <p>© <span id="year"></span> Rohit Patil. Turning data into intelligent solutions.</p>
+    </div>
+    <svg style="display:none">
+      <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm15.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/></symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24"><path d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.332-5.466-5.93 0-1.31.468-2.38 1.236-3.22-.124-.304-.535-1.527.117-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.399 3-.404 1.02.005 2.04.137 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.649.242 2.872.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.803 5.624-5.475 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .322.218.694.825.576 4.765-1.587 8.2-6.086 8.2-11.385 0-6.63-5.373-12-12-12z"/></symbol>
+    </svg>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
